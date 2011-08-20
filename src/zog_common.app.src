@@ -1,0 +1,12 @@
+{application, zog_common,
+ [
+  {description, "zog_common - common helpers for all of zog"},
+  {vsn, "0.3"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
